@@ -1,0 +1,454 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    min-height: 500vh;
+}
+.main{
+    width: 100%;
+    height: auto;
+    background:url("./bg-hero.jpg") no-repeat center/cover;
+
+}
+.main__shadow{
+    width: 100%;
+    height: auto;
+    background:#03032ebd ;
+}
+.navbar{
+    width: 100%;
+    height: 90px;
+    justify-content: space-between;
+    display: flex;
+
+}
+.nav__logo{
+padding-left: 100px;
+padding-top: 30px;
+color: orange;
+font-size: 40px;
+transition: 0.3s;
+}
+.nav__logo:hover{
+   cursor: pointer;
+   padding-left: 10px;
+  
+}
+.nav__collection{
+    align-items: center;
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    padding-right: 200px;
+    padding-top: 40px;
+    color:white;
+    font-size: 20px;
+}
+.nav__item{
+    transition: 0.3s;
+
+}
+.nav__item:hover{
+    color: orange;
+    cursor: pointer;
+    padding-right: 30px;
+}
+.btn{
+    padding: 10px 25px;
+    background-color: orange;
+    border: none;
+    color: white;
+    border-radius: 4px;
+}
+.btn:hover{
+    background: none;
+    color: orange;
+     border: 1px solid orange;
+}
+.banner{
+    display: flex;
+    padding: 50px 10%;
+    gap: 50px;
+}
+.banner__image,
+.banner__text{
+    width: 50%;
+    min-height: auto;
+}
+.banner__text h1{
+   
+    color: white;
+    font-size: 70px;
+    padding-top: 250px;
+}
+.banner__text p{
+    padding-top: 20px;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.btn2{
+    padding: 15px 35px;
+    background-color: orange;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    
+}
+.btn2:hover{
+    background: none;
+    color: orange;
+     border: 1px solid orange;
+     font-size:20px;
+     transition: 0.3s;
+}
+.banner__image img{
+    width: 100%;
+    animation: aylan 20s  linear infinite;
+}
+@keyframes aylan{
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.four__items{
+    display: flex;
+    gap: 50px;
+    padding: 80px 10%;
+    justify-content: center;
+
+}
+.box{
+    width: 450px;
+    height: auto;
+    box-shadow: 0px 0px 15px #0002;
+    padding: 60px 36px;
+    transition: .3s;
+
+
+}
+.box:hover{
+    background: orange;
+    color: white;
+}
+.book{
+    margin: auto;
+    display: flex;
+    width: 95%;
+    height: 600px;
+  
+}
+
+.people{
+    width: 50%;
+    height: 100%;
+    background: url(./video.jpg) no-repeat center/cover;
+
+}
+.people2{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(1, 1, 24);
+}
+.people2 h5{
+    color: orange;
+    padding-top:30px;
+    padding-left: 65px;
+}
+.people2 h1{
+    display: flex;
+    gap: 10px;
+    font-size: 60px;
+    color: white;
+    padding-top: 30px;
+    padding-left: 66px; 
+}
+.inp1{
+    margin-left: 65px;
+    margin-top: 50px;
+    width: 40%;
+    height: 75px;
+    background-color: white;
+    text-indent: 10px;
+}
+.inp{
+    margin-left: 65px;
+    margin-top: 30px;
+    width: 40%;
+    height: 75px;
+    background-color: white;
+    text-indent: 10px;
+}
+.inp5{
+    width: 87.5%;
+    height: 100px;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 65px;
+}
+.long{
+    margin-top: 30px;
+    margin-left: 65px;
+    width:87.5% ;
+    height:50px ;
+    background-color: orange;
+    color: white;
+    
+}
+.cook{
+    margin-top:30px;
+    width: 100%;
+    height:700px ;
+   
+
+}
+.cook h5{
+    color: orange;
+    padding-top:60px ;
+    text-align: center;
+
+}
+.cook h1{
+    text-align: center;
+    padding-top: 10px;
+
+}
+.de__head{
+    padding-left: 50px;
+    display: flex;
+    margin-top: 70px;
+    margin-left: 130px;
+    gap: 50px;
+   
+
+}
+.desig1,
+.desig2,
+.desig3,
+.desig4{
+
+    width: 20%;
+    height: 450px;
+    background-color: rgb(246, 244, 244);
+}
+.img1,
+.img2,
+.img4,
+.img3{
+    padding-top:20px ;
+    display: block;
+    margin: auto;
+    width: 80%;
+    border-radius: 50%;
+    
+}
+.word{
+    text-align: center;
+    padding-top: 40px;
+}
+.clent{
+    width: 95%;
+    height: 500px;
+    margin: auto;
+  
+     
+}
+.clent__head{
+    display: flex;
+    gap: 50px;
+    margin-left:70px ;
+    padding-top: 50px;
+}
+.clent1{
+    width:30% ;
+    height:250px;
+    background-color: white;
+    box-shadow: 0px 0px 5px #0002;
+}
+.clent2{
+    width:30% ;
+    height:250px;
+    background-color: white;
+    box-shadow: 0px 0px 5px #0002;
+}
+.clent3{
+    width:30% ;
+    height:250px;
+    background-color: white;
+    box-shadow: 0px 0px 5px #0002;
+}
+.clent1:hover,
+.clent2:hover,
+.clent3:hover{
+background-color: orange;
+color: white;
+transition: 0.3s;
+}
+.yumaloq{
+    display: flex;
+    gap: 10px;
+    margin-left: 850px;
+    padding-top: 30px;
+    
+}
+.dum2,
+.dum3,
+.dum4,
+.dum1{
+width: 15px;
+height: 15px;
+border: 1px solid black;
+border-radius: 50%;
+}
+.dum2:hover,
+.dum3:hover,
+.dum4:hover,
+.dum1:hover{
+    background-color: orange;
+}
+.clent2 p,
+.clent3 p,
+.clent1 p{
+    padding: 50px;
+}
+.g1,
+.g2,
+.g3{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 40px;
+}
+.name{
+    display: flex;
+    gap: 10px;
+}
+.food{
+    width: 100%;
+    height: 900px;
+    border: 1px solid red;
+}
+.h1{
+   font-size: 45px;
+}
+.icons{
+    display: flex;
+    gap: 120px;
+    width: 22%;
+    margin: auto;
+   margin-top: 40px;
+}
+.icon1{
+    display: flex;
+    gap: 10px;
+    width: 20px;
+}
+.fa-jar{
+    padding-left: 20px;
+    font-size: 30px;
+    color: orange;
+}
+.p{
+    font-size: 13px;
+}
+.icon2{
+    display: flex;
+    gap: 10px;
+    width: 20px;
+}
+.fa-burger{
+    padding-left: 20px;
+    font-size: 30px;
+    color: orange;
+}
+.icon3{
+    display: flex;
+    gap: 10px;
+    width: 20px;
+}
+.fa-spoon{
+    padding-left: 20px;
+    font-size: 30px;
+    color: orange;
+}
+.burger{
+    margin: auto;
+    width: 100%;
+    height: 360px;
+    border: 1px solid  red;
+    margin-top: 50px;
+    
+    
+}
+
+.chic1{
+   display: flex;
+    width: 50%;
+    height: 25%;
+    border: 1px solid red;
+}
+.met1,
+.met2{
+    height: 100%;
+}
+.tel{
+    margin-top: 10px;
+    width: 100%;
+    height: 30px;
+    border-bottom: 1px solid black ;
+}
+
+.tel b{
+    font-size: 20px;
+    color: orange;
+    padding-left: 700px;
+}
+.del{
+    display: flex;
+    width: 100%;
+    height: 30px;
+    padding-top: 30px;
+}
+.del p{
+    display: flex;
+}
+.footer{
+    width: 100%;
+    height: 500px;
+    border: 1px solid red;
+    background-color:blue ;
+    display: flex;
+}
+.div1{
+    padding-top: 100px;
+    width: 25%;
+    height: 85%;
+    border: 1px solid red;
+}
+.div1 h3{
+    color: orange;
+    padding-left: 20px;
+}
+.ul{
+    padding-left: 20px;
+    padding-top: 50px;
+    color: white;
+    list-style: none;
+}
+.div2{
+    width: 25%;
+    height: 85%;
+    border: 1px solid red;
+}.div3{
+    width: 25%;
+    height: 85%;
+    border: 1px solid red;
+}.div4{
+    width: 25%;
+    height: 85%;
+    border: 1px solid red;
+}
